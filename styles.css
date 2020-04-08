@@ -340,15 +340,15 @@ ul.redesSociais:hover li.skype {
         width: 60%;
     }
 }
-/*Edit here for Jquery*/
-.bar-fill-jquery{
+/*Edit here for typescript*/
+.bar-fill-typescript{
 	width: 70%;
-  background-color: #131b28;
-  animation: bar-fill-jquery 2s ease-out;
-	-moz-animation: bar-fill-jquery 2s ease-out;
-  -webkit-animation: bar-fill-jquery 2s ease-out;
+  background-color: #1a3f7a;
+  animation: bar-fill-typescript 2s ease-out;
+	-moz-animation: bar-fill-typescript 2s ease-out;
+  -webkit-animation: bar-fill-typescript 2s ease-out;
 }
-@keyframes bar-fill-jquery {
+@keyframes bar-fill-typescript {
     0% {
         width: 0px;
     }
@@ -357,7 +357,7 @@ ul.redesSociais:hover li.skype {
         width: 70%;
     }
 }
-@-moz-keyframes bar-fill-jquery {
+@-moz-keyframes bar-fill-typescript {
     0% {
         width: 0px;
     }
@@ -366,7 +366,7 @@ ul.redesSociais:hover li.skype {
         width: 70%;
     }
 }
-@-webkit-keyframes bar-fill-jquery {
+@-webkit-keyframes bar-fill-typescript {
     0% {
         width: 0px;
     }
@@ -375,15 +375,15 @@ ul.redesSociais:hover li.skype {
         width: 70%;
     }
 }
-/*Edit here for Responsive*/
-.bar-fill-responsive{
+/*Edit here for Java*/
+.bar-fill-java{
 	width: 90%;
-  background-color: #429f46;
-  animation: bar-fill-responsive 2s ease-out;
-	-moz-animation: bar-fill-responsive 2s ease-out;
-  -webkit-animation: bar-fill-responsive 2s ease-out;
+  background-color: #c23f36;
+  animation: bar-fill-java 2s ease-out;
+	-moz-animation: bar-fill-java 2s ease-out;
+  -webkit-animation: bar-fill-java 2s ease-out;
 }
-@keyframes bar-fill-responsive {
+@keyframes bar-fill-java {
     0% {
         width: 0px;
     }
@@ -392,7 +392,7 @@ ul.redesSociais:hover li.skype {
         width: 90%;
     }
 }
-@-moz-keyframes bar-fill-responsive {
+@-moz-keyframes bar-fill-java {
     0% {
         width: 0px;
     }
@@ -401,7 +401,7 @@ ul.redesSociais:hover li.skype {
         width: 90%;
     }
 }
-@-webkit-keyframes bar-fill-responsive {
+@-webkit-keyframes bar-fill-java {
     0% {
         width: 0px;
     }
@@ -410,38 +410,38 @@ ul.redesSociais:hover li.skype {
         width: 90%;
     }
 }
-/*Edit here for Photoshop*/
-.bar-fill-photoshop{
-	width: 20%;
+/*Edit here for python*/
+.bar-fill-python{
+	width: 70%;
   background-color: #0a73dc;
-  animation: bar-fill-photoshop 2s ease-out;
-	-moz-animation: bar-fill-photoshop 2s ease-out;
-  -webkit-animation: bar-fill-photoshop 2s ease-out;
+  animation: bar-fill-python 2s ease-out;
+	-moz-animation: bar-fill-python 2s ease-out;
+  -webkit-animation: bar-fill-python 2s ease-out;
 }
-@keyframes bar-fill-photoshop {
+@keyframes bar-fill-python {
     0% {
         width: 0px;
     }
 
     100% {
-        width: 20%;
+        width: 70%;
     }
 }
-@-moz-keyframes bar-fill-photoshop {
+@-moz-keyframes bar-fill-python {
     0% {
         width: 0px;
     }
 
     100% {
-        width: 20%;
+        width: 70%;
     }
 }
-@-webkit-keyframes bar-fill-photoshop {
+@-webkit-keyframes bar-fill-python {
     0% {
         width: 0px;
     }
 
     100% {
-        width: 20%;
+        width: 70%;
     }
 }
