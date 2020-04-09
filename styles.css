@@ -445,3 +445,327 @@ ul.redesSociais:hover li.skype {
         width: 70%;
     }
 }
+
+/*Edit here for Angular*/
+.bar-fill-angular{
+	width: 40%;
+  background-color: red;
+  animation: bar-fill-angular 2s ease-out;
+	-moz-animation: bar-fill-angular 2s ease-out;
+  -webkit-animation: bar-fill-angular 2s ease-out;
+}
+@keyframes bar-fill-angular {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+@-moz-keyframes bar-fill-angular {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+@-webkit-keyframes bar-fill-angular {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+
+/*Edit here for Spring*/
+.bar-fill-spring{
+	width: 60%;
+  background-color: green;
+  animation: bar-fill-spring 2s ease-out;
+	-moz-animation: bar-fill-spring 2s ease-out;
+  -webkit-animation: bar-fill-spring 2s ease-out;
+}
+@keyframes bar-fill-spring {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+@-moz-keyframes bar-fill-spring {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+@-webkit-keyframes bar-fill-spring {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+/*Edit here for Bootstrap*/
+.bar-fill-bootstrap{
+	width: 80%;
+  background-color: purple;
+  animation: bar-fill-bootstrap 2s ease-out;
+	-moz-animation: bar-fill-bootstrap 2s ease-out;
+  -webkit-animation: bar-fill-bootstrap 2s ease-out;
+}
+@keyframes bar-fill-bootstrap {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+@-moz-keyframes bar-fill-bootstrap {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+@-webkit-keyframes bar-fill-bootstrap {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+/*Edit here for Git*/
+.bar-fill-git{
+	width: 75%;
+  background-color: darkred;
+  animation: bar-fill-git 2s ease-out;
+	-moz-animation: bar-fill-git 2s ease-out;
+  -webkit-animation: bar-fill-git 2s ease-out;
+}
+@keyframes bar-fill-git {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+@-moz-keyframes bar-fill-git {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+@-webkit-keyframes bar-fill-git {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+/*Edit here for Github*/
+.bar-fill-github{
+	width: 75%;
+  background-color: #24292e;
+  animation: bar-fill-github 2s ease-out;
+	-moz-animation: bar-fill-github 2s ease-out;
+  -webkit-animation: bar-fill-github 2s ease-out;
+}
+@keyframes bar-fill-github {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+@-moz-keyframes bar-fill-github {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+@-webkit-keyframes bar-fill-github {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+/*Edit here for Azure*/
+.bar-fill-azure{
+	width: 60%;
+  background-color: lightblue;
+  animation: bar-fill-azure 2s ease-out;
+	-moz-animation: bar-fill-azure 2s ease-out;
+  -webkit-animation: bar-fill-azure 2s ease-out;
+}
+@keyframes bar-fill-azure {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+@-moz-keyframes bar-fill-azure {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+@-webkit-keyframes bar-fill-azure {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+
+/*Edit here for lol*/
+.bar-fill-lol{
+	width: 10%;
+  background-color: darkblue;
+  animation: bar-fill-lol 2s ease-out;
+	-moz-animation: bar-fill-lol 2s ease-out;
+  -webkit-animation: bar-fill-lol 2s ease-out;
+}
+@keyframes bar-fill-lol {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 10%;
+    }
+}
+@-moz-keyframes bar-fill-lol {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 10%;
+    }
+}
+@-webkit-keyframes bar-fill-lol {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 10%;
+    }
+}
+
+/*Edit here for overwatch*/
+.bar-fill-overwatch{
+	width: 90%;
+  background-color: darkorange;
+  animation: bar-fill-overwatch 2s ease-out;
+	-moz-animation: bar-fill-overwatch 2s ease-out;
+  -webkit-animation: bar-fill-overwatch 2s ease-out;
+}
+@keyframes bar-fill-overwatch {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+@-moz-keyframes bar-fill-overwatch {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+@-webkit-keyframes bar-fill-overwatch {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+/*Edit here for fifa*/
+.bar-fill-fifa{
+	width: 80%;
+  background-color: darkcyan;
+  animation: bar-fill-fifa 2s ease-out;
+	-moz-animation: bar-fill-fifa 2s ease-out;
+  -webkit-animation: bar-fill-fifa 2s ease-out;
+}
+@keyframes bar-fill-fifa {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+@-moz-keyframes bar-fill-fifa {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+@-webkit-keyframes bar-fill-fifa {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
