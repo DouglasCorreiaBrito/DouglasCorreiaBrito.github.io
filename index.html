@@ -12,11 +12,11 @@
 	<body>
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                <a class="navbar-brand" href="#">Douglas Correia</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>  
+              <a class="navbar-brand" href="#">Douglas Correia</a>
+                <div class="collapse navbar-collapse " id="navbarNav">
                   <ul class="navbar-nav">
                     <li class="nav-item active">
                       <a class="nav-link" href="#">Home</a>
@@ -43,14 +43,14 @@
               </div>
                   <h1 class="text-center">Hi, I am Douglas Correia</h1>
                   <h2 class="text-center">Student and Developer</h2>
-                  <h4 class="text-center text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis perferendis exercitationem commodi, quas omnis nemo aperiam, accusamus accusantium tenetur corrupti quisquam saepe tempora! </h4>
+                  <h4 class="text-center text-muted">I am a backend programmer who loves to learn new things and is an enthusiast of geek culture. Feel free to get in touch or take a look at my website.</h4>
                   <h1 class="redesSociais">Redes Sociais</h1>
                   <ul class="redesSociais">
-                    <li class="pinterest"><a href="https://www.pinterest.com/" target="_blank"><img src="img/github.png" alt=""/></a></li>
-                    <li class="facebook"><a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" alt="" /></a></li>
-                    <li class="twitter"><a href="https://www.twitter.com/" target="_blank"><img src="img/twitter.png" alt="" /></a></li>
-                    <li class="googleplus"><a href="https://www.plus.google.com/" target="_blank"><img src="img/gmail.png" alt="" /></a></li>
-                    <li class="skype"><a href="https://www.skype.com/" target="_blank"><img src="img/instagram-sketched.png" alt="" /></a></li>
+                    <li class="github"><a href="https://github.com/DouglasCorreiaBrito" target="_blank"><img src="img/github.png" alt="logo do github"/></a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/douglas.correia.716" target="_blank"><img src="img/facebook.png" alt="logo do facebook"></a></li>
+                    <li class="twitter"><a href="https://www.twitter.com/douglas_cobri" target="_blank"><img src="img/twitter.png" alt="logo do twitter" /></a></li>
+                    <li class="googleplus"><a href="mailto:douglas.lusvardi@gmail.com?Subject=Hello%20, Douglas" target="_blank"><img src="img/gmail.png" alt="" /></a></li>
+                    <li class="insta"><a href="https://www.instagram.com/douglas.lusvardi" target="_blank"><img src="img/instagram-sketched.png" alt="logo do instagram" /></a></li>
                   </ul>
             </section>
                 
@@ -60,7 +60,7 @@
               <div class="info-list"> 
                 <ul class="list-group">
                   <li class="list-group-item list-group-item-dark">Full Name  : Douglas Correia Brito</li>
-                  <li class="list-group-item">Age        : 22 Yers</li>
+                  <li class="list-group-item">Age        : 22 Years</li>
                   <li class="list-group-item list-group-item-dark">Nationality: Brazilian</li>
                   <li class="list-group-item">Languages  : English, Portuguese</li>
                 </ul>
@@ -73,11 +73,10 @@
                       <article class="mycard" role="article">
                         <a>
                           <div class="mycard-text">
-                            <div class="mycard-meta">{{ vs.vagaClicada.empresa }}</div>
+                            <div class="mycard-meta">With Java</div>
                             
-                            <h2 class="mycard-title"><br>{{ vs.vagaClicada.titulo}}</h2>
-                            <h3 class="mycard-title">{{ vs.vagaClicada.descricao }} R${{ vs.vagaClicada.salario }} </h3>
-                            <button class="btn btn--block mycard__btn">Candidatar-se</button>
+                            <h4><br>API REST</h4>
+                            <p class="mycard-title">I can provide API development with clean code</p>
                           </div>
                           <img class="mycard-image" src="img/developer.gif" />
                         </a>
@@ -87,11 +86,10 @@
                       <article class="mycard" role="article">
                         <a>
                           <div class="mycard-text">
-                            <div class="mycard-meta">{{ vs.vagaClicada.empresa }}</div>
+                            <div class="mycard-meta">With Python</div>
                             
-                            <h2 class="mycard-title"><br>{{ vs.vagaClicada.titulo}}</h2>
-                            <h3 class="mycard-title">{{ vs.vagaClicada.descricao }} R${{ vs.vagaClicada.salario }} </h3>
-                            <button class="btn btn--block mycard__btn">Candidatar-se</button>
+                            <h4><br>Machine Learning</h4>
+                            <p class="mycard-title">creation of artificial intelligence for data analysis</p>
                           </div>
                           <img class="mycard-image" src="img/machining.gif" />
                         </a>
@@ -102,11 +100,10 @@
                       <article class="mycard" role="article">
                         <a>
                           <div class="mycard-text">
-                            <div class="mycard-meta">{{ vs.vagaClicada.empresa }}</div>
+                            <div class="mycard-meta">With Python or Java</div>
                             
-                            <h2 class="mycard-title"><br>{{ vs.vagaClicada.titulo}}</h2>
-                            <h3 class="mycard-title">{{ vs.vagaClicada.descricao }} R${{ vs.vagaClicada.salario }} </h3>
-                            <button class="btn btn--block mycard__btn">Candidatar-se</button>
+                            <h4><br>Software Testing</h4>
+                            <p class="mycard-title">I provide software testing on your applications so that they have more quality</p>
                           </div>
                           <img class="mycard-image" src="img/test.gif" />
                         </a>
@@ -137,6 +134,7 @@
                               Java
                               <span class="percent align-right">90%</span>
                           </p>
+                          <p class="text-secondary">Collections | Concurrency | Java 8 | IO | Intellij | Java FX | Hibernate | Junit | Mockito</p>
                           <div class="bar">
                             <div class="bar-fill bar-fill-java start"></div>
                           </div>
@@ -266,6 +264,7 @@
                               LOL
                               <span class="percent align-right">10%</span>
                           </p>
+                          <p class="text-secondary">I'm really bad at this game</p>
                           <div class="bar">
                             <div class="bar-fill bar-fill-lol start"></div>
                           </div>
@@ -275,15 +274,17 @@
                               Overwatch
                                 <span class="percent align-right">90%</span>
                             </p>
+                            <p class="text-secondary">That if I can play with Moira</p>
                           <div class="bar">
                               <div class="bar-fill bar-fill-overwatch start"></div>
                           </div>
                         </div>
                         <div class="fifa">
                             <p class="bar-title">
-                                  Fifa
+                                  FIFA
                                   <span class="percent align-right">80%</span>
                             </p>
+                            <p class="text-secondary">Everyone is good with Real Madrid</p>
                             <div class="bar">
                                 <div class="bar-fill bar-fill-fifa start"></div>
                               </div>
@@ -300,8 +301,8 @@
             <section class="experience">
               <div class="timeline">
                 <div class="timeline__header">
-                  <h2>Timeline Title</h2>
-                  <p>Timeline Description</p>
+                  <h2>Experience</h2>
+                  <p>My professional and student timeline</p>
                 </div>
                 <div class="timeline__content">
                   <div class="timeline__content-edge timeline__content-edge--first">
@@ -309,25 +310,61 @@
                   </div>
                   <ul class="timeline__content-steps">
                     <li class="timeline__content-step">
-                      <h4 class="timeline__content-step__title">Step Title</h4>
+                      <h5 class="timeline__content-step__title">ETEC - My first computer school</h4>
                       <p class="timeline__content-step__description">
-                        Non aute nulla deserunt consectetur deserunt voluptate anim voluptate
-                        exercitation voluptate adipisicing laborum.
+                        2016-2017 - ETEC (state technical school) introduced me to the principles of algorithms, programming languages ​​and computer structure.
+                        <br>
+                        <a href="https://www.cps.sp.gov.br/regimento-comum-etec/" target="_blank">Learn more about ETEC</a>
                       </p>
                     </li>
               
                     <li class="timeline__content-step">
-                      <h4 class="timeline__content-step__title">Step Title</h4>
+                      <h5 class="timeline__content-step__title">Yamaha - My first job with computers</h5>
                       <p class="timeline__content-step__description">
-                        Sint enim incididunt in eu ea ex. Non elit aliqua est pariatur incididunt commodo consectetur.
+                        2016-2017 - Studying at ETEC gave me the opportunity to do an internship at YAMAHA, doing computer maintenance.
+                        <br>
+                        <a href="https://www3.yamaha-motor.com.br/" target="_blank">Learn more about Yamaha</a>
                       </p>
                     </li>
                     <li class="timeline__content-step">
-                      <h4 class="timeline__content-step__title">Step Title</h4>
+                      <h5 class="timeline__content-step__title">UFMT - Entering college</h5>
                       <p class="timeline__content-step__description">
-                        Non elit aliqua est pariatur incididunt commodo consectetur.
+                        2018 - canceled - in 2018 I left São Paulo to enter the Federal University of Mato Grosso (UFMT) to study computer science. I left college in the same year to return to São Paulo.
+                        <br>
+                        <a href="https://www.ufmt.br/ufmt/site/" target="_blank">Learn more about UFMT</a>
+                      </p>
+                      
+                    </li>
+                    <li class="timeline__content-step">
+                      <h5 class="timeline__content-step__title">Fatec - Back to SP</h5>
+                      <p class="timeline__content-step__description">
+                        2018 - currently - Returning to SP, I joined the technology college (Fatec) to study analysis and systems development. I have learned a lot from the course, from data structure to software engineering.
+                        <br>
+                        <a href="http://www.fateczl.edu.br/" target="_blank">Learn more about Fatec</a>
                       </p>
                     </li>
+
+                    <li class="timeline__content-step">
+                      <h5 class="timeline__content-step__title">iTAG - A phase of professional growth</h5>
+                      <p class="timeline__content-step__description">
+                        2018 - 2019 - At Fatec, I joined the company iTAG to do an internship in the development sector doing software testing with a focus on RFID technology.
+                        Here I followed a very interesting path, going from intern to training assistant and later to business analyst, collaborating with projects like  
+                        <a href="https://www.itagtecnologia.com.br/levis-controla-estoque/?fbclid=IwAR1eXeRNwBuyyuwfD0pBAsvLW3pnG4HwsU2BlNXmc_SeglAOLIfe4ndMrJ4" target="_blank">Levi's</a>, 
+                        <a href="https://www.rfidjournal.com/lacoste-creates-high-tech-rfid-showroom" target="_blank">Lacoste</a> 
+                        and <a href="https://www.rfidjournal.com/authentic-feet-manages-nike-stock-via-rfid" target="_blank">Authentic Feet</a>
+                        This journey was so good that it won us a GS1 award at the end. <a href="https://www.linkedin.com/feed/update/urn:li:activity:6467010451036205056/" target="_blank" class="btn btn-dark stretched-link">See</a>.
+                      </p>
+                    </li>
+
+                  </li>
+                  <li class="timeline__content-step">
+                    <h5 class="timeline__content-step__title">Iteris - My developer job</h5>
+                    <p class="timeline__content-step__description">
+                      2020 - currently - 2020 is my last year of college, so I sought a position as a programmer and Iteris welcomed me as one of its developers.
+                      <br>
+                      <a href="https://www.iteris.com.br/" target="_blank">Learn more about Iteris</a>
+                    </p>
+                  </li>
                   </ul>
                   <div class="timeline__content-edge timeline__content-edge--last">
                     <h3 class="timeline__content-edge__title">End</h3>
@@ -339,8 +376,8 @@
 
             <section class="portifolio">
               <div class="text-center">
-                <h3 class="text-center">In Progress...</h3>
-                <img src="img/construction.gif" class="rounded" alt="...">
+                <h3 class="text-center">I would really like you to see my projects, I'm working on it</h3>
+                <img src="img/construction.gif" class="img-thumbnail">
               </div>
             </section>
 

@@ -19,7 +19,7 @@ padding-top: 5%;
 }
 
 .home{
-  min-height: 80vh;
+  max-height: 80vh;
   width: 90%;
   background: whitesmoke;
   padding: 15px;
@@ -69,7 +69,7 @@ ul.redesSociais li {
 }
 
 /*Sem Mouse*/
-ul.redesSociais li.pinterest {
+ul.redesSociais li.github {
   transform: scale(0.5);
   margin-right: -10px;
   z-index:0;
@@ -89,14 +89,14 @@ ul.redesSociais li.googleplus {
   margin-right: -70px;
   z-index:1;
 }
-ul.redesSociais li.skype {
+ul.redesSociais li.insta {
   transform: scale(0.5);
   margin-right: -90px;
   z-index:0;
 }
 
 /*Com Mouse*/
-ul.redesSociais:hover li.pinterest {
+ul.redesSociais:hover li.github {
   margin-right: 190px;
 }
 ul.redesSociais:hover li.facebook {
@@ -108,7 +108,7 @@ ul.redesSociais:hover li.twitter {
 ul.redesSociais:hover li.googleplus {
   margin-right: -170px;
 }
-ul.redesSociais:hover li.skype {
+ul.redesSociais:hover li.insta {
    margin-right: -290px;
 }
 
@@ -207,7 +207,8 @@ ul.redesSociais:hover li.skype {
 }
 
 .mycard-title {
-  margin: 8px 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
   font-weight: 300;
   font-size: 1.275em;
 }
@@ -848,6 +849,7 @@ ul.redesSociais:hover li.skype {
   margin-bottom: 1.5rem;
 }
 .timeline__content-edge--last {
+  margin-top: 50px;
   background: white;
   border: solid 4px #212529;
   color: #212529;
@@ -952,7 +954,7 @@ ul.redesSociais:hover li.skype {
 
 .portifolio{
   
-  min-height: 80vh;
+  max-height: 80vh;
   width: 90%;
   background: whitesmoke;
   padding: 15px;
@@ -965,3 +967,5 @@ ul.redesSociais:hover li.skype {
   -moz-box-shadow: 0px 0px 1em #666;
 
 }
+
+
