@@ -19,7 +19,7 @@ padding-top: 5%;
 }
 
 .home{
-  max-height: 80vh;
+  min-height: 80vh;
   width: 90%;
   background: whitesmoke;
   padding: 15px;
