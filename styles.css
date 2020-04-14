@@ -968,4 +968,60 @@ ul.redesSociais:hover li.insta {
 
 }
 
+@media screen and (max-width: 480px){
+
+  .home{
+    margin-top: 60px;
+    min-height: 120vh;
+  }
+
+  ul.redesSociais li.github {
+    transform: scale(0.5);
+    margin-right: -30px;
+    z-index:1;
+  }
+  ul.redesSociais li.twitter {
+    transform: scale(0.5);
+    margin-right: -70px;
+    z-index:2;
+  }
+  ul.redesSociais li.facebook {
+   display: none;
+  }
+ 
+  ul.redesSociais li.insta {
+    display: none;
+  }
+  ul.redesSociais li.googleplus {
+    display: none;
+  }
+  ul.redesSociais:hover li.github {
+    margin-right: 1px;
+  }
+
+  ul.redesSociais:hover li.twitter {
+    margin-left: 1px;
+  }
+  .mycard{
+    width: auto;
+  }
+  .timeline__content-step{
+    width: 100%;
+    margin-top: 30px;
+  }
+  .timeline__content-step__title:before {
+   display: none;
+  }
+  .timeline__content-step__title::after {
+    display: none;
+   }
+   .timeline__content-step__title{
+     text-align: center;
+   }
+   
+ 
+  
+  
+}
+
 
