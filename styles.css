@@ -343,7 +343,7 @@ ul.redesSociais:hover li.insta {
 }
 /*Edit here for typescript*/
 .bar-fill-typescript{
-	width: 70%;
+	width: 40%;
   background-color: #1a3f7a;
   animation: bar-fill-typescript 2s ease-out;
 	-moz-animation: bar-fill-typescript 2s ease-out;
@@ -355,7 +355,7 @@ ul.redesSociais:hover li.insta {
     }
 
     100% {
-        width: 70%;
+        width: 40%;
     }
 }
 @-moz-keyframes bar-fill-typescript {
@@ -364,7 +364,7 @@ ul.redesSociais:hover li.insta {
     }
 
     100% {
-        width: 70%;
+        width: 40%;
     }
 }
 @-webkit-keyframes bar-fill-typescript {
@@ -373,7 +373,7 @@ ul.redesSociais:hover li.insta {
     }
 
     100% {
-        width: 70%;
+        width: 40%;
     }
 }
 /*Edit here for Java*/
