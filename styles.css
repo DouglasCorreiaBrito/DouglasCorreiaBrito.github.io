@@ -972,7 +972,21 @@ ul.redesSociais:hover li.insta {
 
   .home{
     margin-top: 60px;
-    min-height: 120vh;
+    min-height: 100vh;
+    min-width: 150%;
+
+  }
+  .about{
+    min-height: 100vh;
+    min-width: 150%;
+  }
+  .experience{
+    min-height: 100vh;
+    min-width: 150%;
+  }
+  .portifolio{
+    max-height: 100vh;
+    min-width: 150%;
   }
 
   ul.redesSociais li.github {
