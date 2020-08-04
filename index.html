@@ -30,7 +30,7 @@
                       <a class="nav-link" href="#experience">Experience</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link " href="#portifolio">Portifolio</a>
+                      <a class="nav-link " href="#portifolio">Portfolio</a>
                     </li>
                   </ul>
                 </div>
@@ -43,9 +43,9 @@
                   <img src="img/perfil.jpg" class="img-thumbnail" alt="Responsive image">
               </div>
               </div>
-                  <h1 class="text-center">Hi, I am Douglas Correia</h1>
-                  <h2 class="text-center">Student and Developer</h2>
-                  <h4 class="text-center text-muted">I am a backend programmer who loves to learn new things and is an enthusiast of geek culture. Feel free to get in touch or take a look at my website.</h4>
+                  <h1 class="text-center" id="title-page">Hi, I am Douglas Correia</h1>
+                  <h2 class="text-center" id="second-title-page">Student and Developer</h2>
+                  <h4 class="text-center text-muted" id="third-title-page">I am a programmer who loves to learn new things and is an enthusiast of geek culture. Feel free to get in touch or take a look at my website.</h4>
                   <ul class="redesSociais">
                     <li class="github"><a href="https://github.com/DouglasCorreiaBrito" target="_blank"><img src="img/github.png" alt="logo do github"/></a></li>
                     <li class="facebook"><a href="https://www.facebook.com/douglas.correia.716" target="_blank"><img src="img/facebook.png" alt="logo do facebook"></a></li>
@@ -383,13 +383,41 @@
 
             <section id="portifolio" class="portifolio">
               <div class="text-center">
-                <h3 class="text-center">I would really like you to see my projects, I'm working on it</h3>
-                <div class=" container-img-parent mt-2 mb-2 p-1">
-                  <div class="container-img-child text-center">
-                    <img src="img/construction.gif" class="img-thumbnail">
+                <h3 class="text-center mb-3">Portfolio</h3>
+                <div class="card text-center border-dark mb-3">
+                  <div class="card-header">
+                    Open Source Project
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Jobtech.IO</h5>
+                    <p class="card-text">This project is an initiative of a small group of developers to create an 
+                      inverted vacancy system where the candidate can register his concept of a good vacancy 
+                      (with salary, benefits, among others) and the company that is willing to hire him under those conditions can contact him</p>
+                    <a href="#" class="btn btn-dark">read more</a>
+                  </div>
+                  <div class="card-footer text-muted">
+                    I would really like you to see my projects, I'm working on it
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+                    </div>
                   </div>
                 </div>
-                
+                <div class="card text-center border-dark mb-3">
+                  <div class="card-header">
+                    TCC
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Sentiment Analyzer</h5>
+                    <p class="card-text">This is a work that uses artificial intelligence to analyze the sentiment expressed in a tweet</p>
+                    <a href="#" class="btn btn-dark">read more</a>
+                  </div>
+                  <div class="card-footer text-muted">
+                    I would really like you to see my projects, I'm working on it
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </section>
 
@@ -400,4 +428,22 @@
         
   </body>
   <script src="app.js"></script>
+  <script>
+      function typeWriter(element){
+        const textArray = element.innerHTML.split('');
+        element.innerHTML = '';
+        console.log(textArray)
+        textArray.forEach((letter,i)=> {
+          setTimeout(()=>element.innerHTML += letter,75*i)
+        });
+      }
+
+      const text = document.querySelector('#title-page');
+      const title = document.querySelector('#second-title-page');
+      const subtitle = document.querySelector('#third-title-page');
+      typeWriter(title);
+      typeWriter(subtitle);
+      typeWriter(text);
+
+  </script>
 </html>
