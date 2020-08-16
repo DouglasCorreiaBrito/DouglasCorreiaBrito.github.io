@@ -1,2 +1,1 @@
-# DouglasCorreiaBrito.github.io
-My personal website
+# http://douglascorreiabrito.github.io
