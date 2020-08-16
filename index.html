@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width">
     <title>Douglas</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/favicon-96x96.png" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
 	</head>
-	<body>
+	<body class="body-normal">
         <header class="menu">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,9 +35,14 @@
                     </li>
                   </ul>
                 </div>
+                <div class="custom-control custom-switch text-center">
+                  <input type="checkbox" class="custom-control-input" id="customSwitch" onclick="changeStyle()">
+                  <label class="custom-control-label mt-2 mb-2 text-white" for="customSwitch">Dark Mode</label>
+                </div>
               </nav>
         </header>
         <main class="wrapper">
+          
             <section id="home" class="home">
               <div class=" container-img-parent mt-2 mb-2 p-1">
                 <div class="container-img-child text-center">
@@ -61,9 +67,9 @@
               <div class="info-list"> 
                 <ul class="list-group">
                   <li class="list-group-item list-group-item-dark">Full Name  : Douglas Correia Brito</li>
-                  <li class="list-group-item">Age        : 22 Years</li>
+                  <li class="list-group-item list-group-item-dark">Age        : 22 Years</li>
                   <li class="list-group-item list-group-item-dark">Nationality: Brazilian</li>
-                  <li class="list-group-item">Languages  : English (intermediate), Portuguese (native)</li>
+                  <li class="list-group-item list-group-item-dark">Languages  : English (intermediate), Portuguese (native)</li>
                 </ul>
               </div>
              <h5 class="text-center mt-3">Services</h5>
@@ -427,23 +433,7 @@
             </footer>
         
   </body>
-  <script src="app.js"></script>
-  <script>
-      function typeWriter(element){
-        const textArray = element.innerHTML.split('');
-        element.innerHTML = '';
-        console.log(textArray)
-        textArray.forEach((letter,i)=> {
-          setTimeout(()=>element.innerHTML += letter,75*i)
-        });
-      }
-
-      const text = document.querySelector('#title-page');
-      const title = document.querySelector('#second-title-page');
-      const subtitle = document.querySelector('#third-title-page');
-      typeWriter(title);
-      typeWriter(subtitle);
-      typeWriter(text);
-
-  </script>
+  <script src="scroll-suave.js"></script>
+  <script src="maquina-escrever.js"></script>
+  <script src="dark-mode.js"></script>
 </html>

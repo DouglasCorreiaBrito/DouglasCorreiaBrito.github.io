@@ -7,15 +7,16 @@
   
   
 }
+
+body{
+padding-top: 5%;
+}
+
 .wrapper{
   display: flex;
   flex-direction: column;
   justify-content: center;
   background:white;
-
-}
-body{
-padding-top: 5%;
 }
 
 .home{
@@ -954,7 +955,7 @@ ul.redesSociais:hover li.insta {
 
 .portifolio{
   
-  max-height: 80vh;
+  max-height: 120vh;
   width: 90%;
   background: whitesmoke;
   padding: 15px;
@@ -968,15 +969,107 @@ ul.redesSociais:hover li.insta {
 
 }
 
+/* DARK MODE STYLE */
+
+.body-darkmode{
+  padding-top: 5%;
+  background-color: #212529;
+}
+
+.wrapper-darkmode{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #212529;
+}
+
+.home-darkmode
+{
+  color: whitesmoke;
+  min-height: 80vh;
+  width: 90%;
+  background:#343a40;
+  padding: 15px;
+  margin-left: 5%;
+  border-radius: 1rem;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 1em #666;
+  -webkit-box-shadow: 0px 0px 1em #666;
+  -moz-box-shadow: 0px 0px 1em #666;
+}
+
+.about-darkmode{
+  color: white;
+  min-height: 80vh;
+  width: 90%;
+  background: #343a40;
+  padding: 15px;
+  border-radius: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  box-shadow: 0px 0px 1em #666;
+  -webkit-box-shadow: 0px 0px 1em #666;
+  -moz-box-shadow: 0px 0px 1em #666;
+}
+
+.experience-darkmode{
+  
+  min-height: 80vh;
+  width: 90%;
+  color: white;
+  background: #343a40;
+  padding: 15px;
+  border-radius: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  box-shadow: 0px 0px 1em #666;
+  -webkit-box-shadow: 0px 0px 1em #666;
+  -moz-box-shadow: 0px 0px 1em #666;
+
+}
+
+.portifolio-darkmode{
+  
+  max-height: 120vh;
+  width: 90%;
+  color: white;
+  background: #343a40;
+  padding: 15px;
+  border-radius: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5%;
+  box-shadow: 0px 0px 1em #666;
+  -webkit-box-shadow: 0px 0px 1em #666;
+  -moz-box-shadow: 0px 0px 1em #666;
+
+}
+
+
+/* Responsivity */
+
 @media screen and (max-width: 480px){
 
+  customSwitch{
+    margin-top: 100px;
+  }
   .home{
     margin-top: 60px;
     min-height: 100vh;
     min-width: 150%;
-
+  }
+  .home-darkmode{
+    margin-top: 60px;
+    min-height: 100vh;
+    min-width: 150%;
   }
   .about{
+    min-height: 100vh;
+    min-width: 150%;
+  }
+  .about-darkmode{
     min-height: 100vh;
     min-width: 150%;
   }
@@ -984,7 +1077,15 @@ ul.redesSociais:hover li.insta {
     min-height: 100vh;
     min-width: 150%;
   }
+  .experience-darkmode{
+    min-height: 100vh;
+    min-width: 150%;
+  }
   .portifolio{
+    max-height: 100vh;
+    min-width: 150%;
+  }
+  .portifolio-darkmode{
     max-height: 100vh;
     min-width: 150%;
   }
