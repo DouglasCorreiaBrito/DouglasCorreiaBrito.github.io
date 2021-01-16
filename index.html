@@ -1,439 +1,338 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Douglas</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="img/favicon-96x96.png" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
-	</head>
-	<body class="body-normal">
-        <header class="menu">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>  
-              <a class="navbar-brand" href="#">Douglas Correia</a>
-                <div class="collapse navbar-collapse " id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link " href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#experience">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="#portifolio">Portfolio</a>
-                    </li>
-                  </ul>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Douglas Correia</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Douglas Correia</a>
+                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
                 </div>
-                <div class="custom-control custom-switch text-center">
-                  <input type="checkbox" class="custom-control-input" id="customSwitch" onclick="changeStyle()">
-                  <label class="custom-control-label mt-2 mb-2 text-white" for="customSwitch">Dark Mode</label>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5 img-circle" src="assets/img/perfil.jpg" alt="" />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Hi, I am Douglas Correia</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
                 </div>
-              </nav>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Junior Software Developer</p>
+            </div>
         </header>
-        <main class="wrapper">
-          
-            <section id="home" class="home">
-              <div class=" container-img-parent mt-2 mb-2 p-1">
-                <div class="container-img-child text-center">
-                  <img src="img/perfil.jpg" class="img-thumbnail" alt="Responsive image">
-              </div>
-              </div>
-                  <h1 class="text-center" id="title-page">Hi, I am Douglas Correia</h1>
-                  <h2 class="text-center" id="second-title-page">Student and Developer</h2>
-                  <h4 class="text-center text-muted" id="third-title-page">I am a programmer who loves to learn new things and is an enthusiast of geek culture. Feel free to get in touch or take a look at my website.</h4>
-                  <ul class="redesSociais">
-                    <li class="github"><a href="https://github.com/DouglasCorreiaBrito" target="_blank"><img src="img/github.png" alt="logo do github"/></a></li>
-                    <li class="facebook"><a href="https://www.facebook.com/douglas.correia.716" target="_blank"><img src="img/facebook.png" alt="logo do facebook"></a></li>
-                    <li class="twitter"><a href="https://www.twitter.com/douglas_cobri" target="_blank"><img src="img/twitter.png" alt="logo do twitter" /></a></li>
-                    <li class="googleplus"><a href="mailto:douglas.lusvardi@gmail.com?Subject=Hello%20, Douglas" target="_blank"><img src="img/gmail.png" alt="" /></a></li>
-                    <li class="insta"><a href="https://www.instagram.com/douglas.lusvardi" target="_blank"><img src="img/instagram-sketched.png" alt="logo do instagram" /></a></li>
-                  </ul>
-            </section>
-                
-            <section id="about" class="about">
-
-              <h2 class="text-center">About me</h2>
-              <div class="info-list"> 
-                <ul class="list-group">
-                  <li class="list-group-item list-group-item-dark">Full Name  : Douglas Correia Brito</li>
-                  <li class="list-group-item list-group-item-dark">Age        : 22 Years</li>
-                  <li class="list-group-item list-group-item-dark">Nationality: Brazilian</li>
-                  <li class="list-group-item list-group-item-dark">Languages  : English (intermediate), Portuguese (native)</li>
-                </ul>
-              </div>
-             <h5 class="text-center mt-3">Services</h5>
-             <div class="info-services">
-                <div class="container">
-                  <div class="row">
-                    <div id="mycard-service">
-                      <article class="mycard" role="article">
-                        <a>
-                          <div class="mycard-text">
-                            <div class="mycard-meta">With Java</div>
-                            
-                            <h4><br>API REST</h4>
-                            <p class="mycard-title">I can provide API development with clean code</p>
-                          </div>
-                          <img class="mycard-image" src="img/developer.gif" />
-                        </a>
-                      </article>
-                    </div>
-                    <div id="mycard-service">
-                      <article class="mycard" role="article">
-                        <a>
-                          <div class="mycard-text">
-                            <div class="mycard-meta">With Python</div>
-                            
-                            <h4><br>Machine Learning</h4>
-                            <p class="mycard-title">creation of artificial intelligence for data analysis</p>
-                          </div>
-                          <img class="mycard-image" src="img/machining.gif" />
-                        </a>
-                      </article>
-                    </div>
-      
-                    <div id="mycard-service">
-                      <article class="mycard" role="article">
-                        <a>
-                          <div class="mycard-text">
-                            <div class="mycard-meta">With Python or Java</div>
-                            
-                            <h4><br>Software Testing</h4>
-                            <p class="mycard-title">I provide software testing on your applications so that they have more quality</p>
-                          </div>
-                          <img class="mycard-image" src="img/test.gif" />
-                        </a>
-                      </article>
-                    </div>
-                    
-                  </div>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio text-white" style="background-color: #323232;" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
                 </div>
-             </div>
-
-              <div class="info-skills">
-                <h5 class="text-center mt-3">Skills</h5>
-                <nav>
-                  <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active text-dark" id="nav-back-tab" data-toggle="tab" href="#nav-back" role="tab" aria-controls="nav-back" aria-selected="true">Backend</a>
-                    <a class="nav-item nav-link text-dark" id="nav-front-tab" data-toggle="tab" href="#nav-front" role="tab" aria-controls="nav-front" aria-selected="false">Frontend</a>
-                    <a class="nav-item nav-link text-dark" id="nav-framework-tab" data-toggle="tab" href="#nav-framework" role="tab" aria-controls="nav-framework" aria-selected="false">Framework</a>
-                    <a class="nav-item nav-link text-dark" id="nav-tools-tab" data-toggle="tab" href="#nav-tools" role="tab" aria-controls="nav-tools" aria-selected="false">Tools</a>
-                    <a class="nav-item nav-link text-dark" id="nav-games-tab" data-toggle="tab" href="#nav-games" role="tab" aria-controls="nav-games" aria-selected="false">Games</a>
-                  </div>
-                </nav>
-                <div class="tab-content" id="nav-tabContent">
-                  <div class="tab-pane fade show active" id="nav-back" role="tabpanel" aria-labelledby="nav-back-tab">
-                    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-                    <div class="container-skills">
-                        <div class="java">
-                          <p class="bar-title">
-                              Java
-                              <span class="percent align-right">90%</span>
-                          </p>
-                          <p class="text-secondary">Collections | Concurrency | Java 8 | IO | Intellij | Java FX | Hibernate | Junit | Mockito</p>
-                          <div class="bar">
-                            <div class="bar-fill bar-fill-java start"></div>
-                          </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <h3 class="text-center">Twitter Sentimentalizer</h3>
+                            <img class="img-fluid" src="assets/img/portfolio/brain.gif" alt="" />
                         </div>
-                        <div class="python">
-                            <p class="bar-title">
-                                Python
-                                <span class="percent align-right">70%</span>
-                            </p>
-                            <p class="text-secondary">Collections | Pip | pyUnit</p>
-                          <div class="bar">
-                              <div class="bar-fill bar-fill-python start"></div>
-                          </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <h3 class="text-center">Harulki Cosmetics Landing Page</h3>
+                            <img class="img-fluid" src="assets/img/portfolio/salon.gif" alt="" />
                         </div>
-                        <div class="javascript">
-                          <p class="bar-title">
-                              SQL
-                              <span class="percent align-right">60%</span>
-                          </p>
-                          <p class="text-secondary">DDL | DML</p>
-                        <div class="bar">
-                            <div class="bar-fill bar-fill-javascript start"></div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <h3 class="text-center">My personal blog</h3><br>
+                            <img class="img-fluid" src="assets/img/portfolio/blog.gif " alt="" />
                         </div>
-                      </div>
-                     </div>
-                  </div>
-                  <div class="tab-pane fade" id="nav-front" role="tabpanel" aria-labelledby="nav-front-tab">
-                    
-                    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-                    <div class="container-skills">
-                        <div class="html">
-                          <p class="bar-title">
-                              HTML & CSS
-                              <span class="percent align-right">90%</span>
-                          </p>
-                          <p class="text-secondary">Semantic HTML | Conventions | Acessibility | SEO Basics | Media Queries | Responsive design</p>
-                          <div class="bar">
-                            <div class="bar-fill bar-fill-html start"></div>
-                          </div>
-                        </div>
-                        <div class="javascript">
-                            <p class="bar-title">
-                                Javascript
-                                <span class="percent align-right">60%</span>
-                            </p>
-                            <p class="text-secondary">DOM manipulation | Syntax and Basic Constructs | Ajax</p>
-                          <div class="bar">
-                              <div class="bar-fill bar-fill-javascript start"></div>
-                          </div>
-                        </div>
-                        <div class="typescript">
-                            <p class="bar-title">
-                                  Typescript
-                                  <span class="percent align-right">40%</span>
-                            </p>
-                            <div class="bar">
-                                <div class="bar-fill bar-fill-typescript start"></div>
-                              </div>
-                        </div>
-                     </div>
-
-                  </div>
-                  <div class="tab-pane fade" id="nav-framework" role="tabpanel" aria-labelledby="nav-framework-tab">
-                    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-                    <div class="container-skills">
-                        <div class="angular">
-                          <p class="bar-title">
-                              Angular
-                              <span class="percent align-right">40%</span>
-                          </p>
-                          <p class="text-secondary">Angular CLI | npm scripts | Angular Material</p>
-                          <div class="bar">
-                            <div class="bar-fill bar-fill-angular start"></div>
-                          </div>
-                        </div>
-                        <div class="bootstrap">
-                          <p class="bar-title">
-                              Bootstrap
-                              <span class="percent align-right">80%</span>
-                          </p>
-                          <div class="bar">
-                            <div class="bar-fill bar-fill-bootstrap start"></div>
-                          </div>
-                        </div>
-                        <div class="spring">
-                            <p class="bar-title">
-                                Spring Framework
-                                <span class="percent align-right">60%</span>
-                            </p>
-                            <p class="text-secondary">Data | Security | Boot</p>
-                          <div class="bar">
-                              <div class="bar-fill bar-fill-spring start"></div>
-                          </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="tab-pane fade" id="nav-tools" role="tabpanel" aria-labelledby="nav-tools-tab">
-                    <div class="container-skills">
-                      <div class="git">
-                        <p class="bar-title">
-                            Git
-                            <span class="percent align-right">75%</span>
+                    </div>
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ml-auto"><p class="lead">I am a programmer who loves to learn new things and is an enthusiast of geek culture. I work as a junior developer at <a href="https://www.iteris.com.br/" class="text-white">Iteris.</a></p></div>
+                    <div class="col-lg-4 mr-auto"><p class="lead">I am graduated in systems analysis and development at the São Paulo School of Technology <a href="http://www.fateczl.edu.br/" class="text-white">(Fatec).</a> I learned a lot from the course, from data structure to software engineering.</p></div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section-->
+        <section class="page-section" style="background-color: #323232"; id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Contact Me</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Form-->
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Name</label>
+                                    <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Email Address</label>
+                                    <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Phone Number</label>
+                                    <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                                    <label>Message</label>
+                                    <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <br />
+                            <div id="success"></div>
+                            <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            Brazil
+                            <br />
+                            São Paulo - SP
                         </p>
-                        <div class="bar">
-                          <div class="bar-fill bar-fill-git start"></div>
-                        </div>
-                      </div>
-                      <div class="github">
-                          <p class="bar-title">
-                              Github
-                              <span class="percent align-right">70%</span>
-                          </p>
-                        <div class="bar">
-                            <div class="bar-fill bar-fill-github start"></div>
-                        </div>
-                      </div>
-                      <div class="azure">
-                        <p class="bar-title">
-                            MS Azure
-                            <span class="percent align-right">60%</span>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/douglas-correia-15816a153/"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.twitter.com/douglas_cobri"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                        <p class="lead mb-0">
+                            Freelance is a free to use, MIT licensed Bootstrap theme created by
+                            <a href="http://startbootstrap.com">Start Bootstrap</a>
+                            .
                         </p>
-                      <div class="bar">
-                          <div class="bar-fill bar-fill-azure start"></div>
-                      </div>
                     </div>
-                   </div>
-                  </div>
-                  <div class="tab-pane fade" id="nav-games" role="tabpanel" aria-labelledby="nav-games-tab">
-                    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-                    <div class="container-skills">
-                        <div class="lol">
-                          <p class="bar-title">
-                              LOL
-                              <span class="percent align-right">10%</span>
-                          </p>
-                          <p class="text-secondary">I'm really bad at this game</p>
-                          <div class="bar">
-                            <div class="bar-fill bar-fill-lol start"></div>
-                          </div>
-                        </div>
-                        <div class="overwatch">
-                            <p class="bar-title">
-                              Overwatch
-                                <span class="percent align-right">90%</span>
-                            </p>
-                            <p class="text-secondary">That if I can play with Moira</p>
-                          <div class="bar">
-                              <div class="bar-fill bar-fill-overwatch start"></div>
-                          </div>
-                        </div>
-                        <div class="fifa">
-                            <p class="bar-title">
-                                  FIFA
-                                  <span class="percent align-right">80%</span>
-                            </p>
-                            <p class="text-secondary">Everyone is good with Real Madrid</p>
-                            <div class="bar">
-                                <div class="bar-fill bar-fill-fifa start"></div>
-                              </div>
-                        </div>
-                     </div>
-                  </div>
                 </div>
-          
-
-              </div>
-              
-            </section>
-            
-            <section id="experience" class="experience">
-              <div class="timeline">
-                <div class="timeline__header">
-                  <h2>Experience</h2>
-                  <p>My professional and student timeline</p>
-                </div>
-                <div class="timeline__content">
-                  <div class="timeline__content-edge timeline__content-edge--first">
-                    <h3 class="timeline__content-edge__title">Start</h3>
-                  </div>
-                  <ul class="timeline__content-steps">
-                    <li class="timeline__content-step">
-                      <h5 class="timeline__content-step__title">ETEC - My first computer school</h4>
-                      <p class="timeline__content-step__description">
-                        2016-2017 - ETEC (state technical school) introduced me to the principles of algorithms, programming languages ​​and computer structure.
-                        <br>
-                        <a href="https://www.cps.sp.gov.br/regimento-comum-etec/" target="_blank">Learn more about ETEC</a>
-                      </p>
-                    </li>
-              
-                    <li class="timeline__content-step">
-                      <h5 class="timeline__content-step__title">Yamaha - My first job with computers</h5>
-                      <p class="timeline__content-step__description">
-                        2016-2017 - Studying at ETEC gave me the opportunity to do an internship at YAMAHA, doing computer maintenance.
-                        <br>
-                        <a href="https://www3.yamaha-motor.com.br/" target="_blank">Learn more about Yamaha</a>
-                      </p>
-                    </li>
-                    <li class="timeline__content-step">
-                      <h5 class="timeline__content-step__title">UFMT - Entering college</h5>
-                      <p class="timeline__content-step__description">
-                        2018 - canceled - in 2018 I left São Paulo to enter the Federal University of Mato Grosso (UFMT) to study computer science. I left college in the same year to return to São Paulo.
-                        <br>
-                        <a href="https://www.ufmt.br/ufmt/site/" target="_blank">Learn more about UFMT</a>
-                      </p>
-                      
-                    </li>
-                    <li class="timeline__content-step">
-                      <h5 class="timeline__content-step__title">Fatec - Back to SP</h5>
-                      <p class="timeline__content-step__description">
-                        2018 - currently - Returning to SP, I joined the technology college (Fatec) to study analysis and systems development. I have learned a lot from the course, from data structure to software engineering.
-                        <br>
-                        <a href="http://www.fateczl.edu.br/" target="_blank">Learn more about Fatec</a>
-                      </p>
-                    </li>
-
-                    <li class="timeline__content-step">
-                      <h5 class="timeline__content-step__title">iTAG - A phase of professional growth</h5>
-                      <p class="timeline__content-step__description">
-                        2018 - 2019 - At Fatec, I joined the company iTAG to do an internship in the development sector doing software testing with a focus on RFID technology.
-                        Here I followed a very interesting path, going from intern to training assistant and later to business analyst, collaborating with projects like  
-                        <a href="https://www.itagtecnologia.com.br/levis-controla-estoque/?fbclid=IwAR1eXeRNwBuyyuwfD0pBAsvLW3pnG4HwsU2BlNXmc_SeglAOLIfe4ndMrJ4" target="_blank">Levi's</a>, 
-                        <a href="https://www.rfidjournal.com/lacoste-creates-high-tech-rfid-showroom" target="_blank">Lacoste</a> 
-                        and <a href="https://www.rfidjournal.com/authentic-feet-manages-nike-stock-via-rfid" target="_blank">Authentic Feet</a>
-                        This journey was so good that it won us a GS1 award at the end. <a href="https://www.linkedin.com/feed/update/urn:li:activity:6467010451036205056/" target="_blank" class="btn btn-dark stretched-link">See</a>.
-                      </p>
-                    </li>
-
-                  </li>
-                  <li class="timeline__content-step">
-                    <h5 class="timeline__content-step__title">Iteris - My developer job</h5>
-                    <p class="timeline__content-step__description">
-                      2020 - currently - 2020 is my last year of college, so I sought a position as a programmer and Iteris welcomed me as one of its developers.
-                      <br>
-                      <a href="https://www.iteris.com.br/" target="_blank">Learn more about Iteris</a>
-                    </p>
-                  </li>
-                  </ul>
-                  <div class="timeline__content-edge timeline__content-edge--last">
-                    <h3 class="timeline__content-edge__title">End</h3>
-                  </div>
-                </div>
-              </div>
-              
-            </section>
-
-            <section id="portifolio" class="portifolio">
-              <div class="text-center">
-                <h3 class="text-center mb-3">Portfolio</h3>
-                <div class="card text-center border-dark mb-3">
-                  <div class="card-header">
-                    Open Source Project
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Jobtech.IO</h5>
-                    <p class="card-text">This project is an initiative of a small group of developers to create an 
-                      inverted vacancy system where the candidate can register his concept of a good vacancy 
-                      (with salary, benefits, among others) and the company that is willing to hire him under those conditions can contact him</p>
-                    <a href="#" class="btn btn-dark">read more</a>
-                  </div>
-                  <div class="card-footer text-muted">
-                    I would really like you to see my projects, I'm working on it
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-dark">
+            <div class="container"><small>Copyright © Your Website 2020</small></div>
+        </div>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Twitter Sentimentalizer</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Content-->
+                                    <div class="card" style="width: auto;">
+                                        <div class="card-body">
+                                          <h5 class="card-title">project information</h5>
+                                          <h6 class="card-subtitle mb-2 text-muted">made with python</h6>
+                                          <p class="card-text">This project is a practical implementation of undergraduate course work on sentimental analysis in social networks. The system conducts sentimental analyzes based on data mining on the social network Twitter using concepts of Machine Learning and Natural Language Processing.</p>
+                                          <a  href="https://tcc-fateczl-2020.herokuapp.com/" target="_blank" class="btn btn-primary">see the project</a>
+                                          <a href="https://github.com/gustuxd/tcc-fateczl-2020" target="_blank" class="btn btn-secondary">see on github</a>
+                                        </div>
+                                    </div>
+                                    <!-- Portfolio Modal - Text-->
+                                    <h4 class="mb-5"></h4>
+                                    <button class="btn btn-primary" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="card text-center border-dark mb-3">
-                  <div class="card-header">
-                    TCC
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Sentiment Analyzer</h5>
-                    <p class="card-text">This is a work that uses artificial intelligence to analyze the sentiment expressed in a tweet</p>
-                    <a href="https://tcc-fateczl-2020.herokuapp.com/" class="btn btn-dark">read more</a>
-                  </div>
-                  <div class="card-footer text-muted">
-                    I would really like you to see my projects, I'm working on it
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal2Label">Harulki Cosmetics</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Content-->
+                                    <div class="card" style="width: auto;">
+                                        <div class="card-body">
+                                          <h5 class="card-title">project information</h5>
+                                          <h6 class="card-subtitle mb-2 text-muted">made html/css</h6>
+                                          <p class="card-text">Harulki is a company in the beauty industry for whom I am making a landing page, it is in progress, I will show it soon.</p>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary mt-2" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-            </section>
-
-            </main>           
-            <footer>
-                
-            </footer>
-        
-  </body>
-  <script src="scroll-suave.js"></script>
-  <script src="maquina-escrever.js"></script>
-  <script src="dark-mode.js"></script>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal3Label">Circus Tent</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                       <!-- Portfolio Modal - Content-->
+                                       <div class="card" style="width: auto;">
+                                        <div class="card-body">
+                                          <h5 class="card-title">project information</h5>
+                                          <h6 class="card-subtitle mb-2 text-muted">made flask</h6>
+                                          <p class="card-text">it is in progress, I will show it soon.</p>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary mt-3" data-dismiss="modal">
+                                        <i class="fas fa-times fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="scripts.js"></script>
+    </body>
 </html>
